@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Dentactive- An accident analysis page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
+
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=News+Cycle:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+
+  <body>
+    <div id="top" class="navbar navbar-dark navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-bars fa-2x"></i>
+          </button>
+          <a class="navbar-brand" href="#"><strong>DENT</strong>ACTIVE</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nv navbar-nav navbar-right">
+            <li class="active"><a href="#carousel-header">Home</a></li>
+            <li>
+              <a href="https://www.w3schools.com/" target="”_blank”">About</a>
+            </li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        +
+      </div>
+    </div>
+
+    <div
+      id="carousel-header"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="8000"
+    >
+      <div class="carousel-inner">
+        <div class="camera-icon hidden-sm hidden-xs">
+          <div class="circle">
+            <div class="hexagon">
+              <input
+                type="file"
+                accept="image/*"
+                id="imageinput"
+                onchange="loadFile(event)"
+                style="display: none"
+              />
+              <label for="imageinput"><i class="fa fa-camera"></i></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="item active">
+          <img src="img\slide2.jpg" alt="" />
+        </div>
+
+        <div class="item">
+          <img src="img\slide1.jpg" alt="" />
+        </div>
+      </div>
+
+      <a
+        class="left carousel-control"
+        href="#carousel-header"
+        role="button"
+        data-slide="next"
+      >
+        <img src="img/left.png" alt="Previous" />
+      </a>
+      <a
+        class="right carousel-control"
+        href="#carousel-header"
+        role="button"
+        data-slide="next"
+      >
+        <img src="img/right.png" alt="Next" />
+      </a>
+    </div>
+
+    <div id="about" class="content-block content-block-cyan">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <h1>Damage detection</h1>
+            <p>
+              Damage to a car can be difficult to detect, especially when it's
+              not immediately visible. In this study, we propose a damage
+              detection system using OpenCV to identify and analyze car damage
+              from images. We captured images of cars from different angles and
+              distances, including front, back, and side views. We then used
+              OpenCV to analyze the images and identify any areas of damage,
+              such as dents or scratches. Our system used image processing
+              techniques such as filtering and edge detection to enhance the
+              images and improve the accuracy of the analysis. We also used
+              machine learning algorithms to classify the type and severity of
+              the damage. Our results show that OpenCV can be an effective tool
+              for car damage detection, providing a fast and accurate way to
+              assess the condition of a vehicle. This system has the potential
+              to be useful for car dealers, insurance companies, and other
+              organizations that need to quickly and accurately assess car
+              damage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="recent-projects">
+      <div class="recent-projects-title">Recent Projects</div>
+
+      <div class="recent-projects-content content-block-gray">
+        <div id="owl-example" class="owl-carousel">
+          <div>
+            <img src="img/recent1.jpg" alt="" />
+          </div>
+          <div>
+            <img src="img/recent2.jpg" alt="" />
+          </div>
+          <div>
+            <img src="img/recent3.jpg" alt="" />
+          </div>
+          <div>
+            <img src="img/recent4.jpg" alt="" />
+          </div>
+          <div>
+            <img src="img/recent5.jpg" alt="" />
+          </div>
+          <div>
+            <img src="img/recent6.jpg" alt="" />
+          </div>
+          <div>
+            <img src="img/recent4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="blog" class="content-block content-block-gray">
+      <div class="container">
+        <header class="block-heading cleafix">
+          <a href="#" class="btn btn-o btn-lg pull-right">Top Of Page</a>
+          <h1>From the Blog</h1>
+          <p>Keep up with the latest happenings.</p>
+        </header>
+        <section class="block-body">
+          <div class="row">
+            <div class="col-sm-4 blog-post">
+              <img src="img\opencv.png" alt="Design Your Mind" />
+              <a href="https://opencv.org/"><h2>Open CV</h2></a>
+              <div class="date">09 April, 2023</div>
+            </div>
+            <div class="col-sm-4 blog-post">
+              <img src="img\GitHub-backup-script.jpg" alt="Winter Is Comming" />
+              <a href="https://github.com/opencv"><h2>OpenCV-Github</h2></a>
+              <div class="date">09 April, 2023</div>
+            </div>
+            <div class="col-sm-4 blog-post">
+              <img src="img\final_project_image.png" alt="The Illustration" />
+              <a href="https://pypi.org/project/opencv-python/"
+                ><h2>OpenCV-Projects</h2></a
+              >
+              <div class="date">09 April, 2023</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div id="social" class="content-block">
+      <div class="container text-center">
+        <div class="hexagon">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="hexagon">
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="hexagon">
+          <a href="https://plus.google.com/"
+            ><i class="fa fa-google-plus"></i
+          ></a>
+        </div>
+        <div class="hexagon">
+          <a href="https://www.instagram.com/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </div>
+        <div class="hexagon">
+          <a href="https://www.pinterest.com/"
+            ><i class="fa fa-pinterest"></i
+          ></a>
+        </div>
+        <div class="hexagon">
+          <a href="mailto:example@example.com"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="content-block content-block-dark">
+      <p>
+        &copy; Copyright Team Devsphere. Theme by
+        <a href="https://www.srmist.edu.in/" target="_blank"> SRMIST</a>
+      </p>
+    </footer>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.11.0.min.js"><\/script>'
+        );
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="owl-carousel/owl.carousel.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
